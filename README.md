@@ -7,6 +7,9 @@ LuaJIT 2.1.0-beta3
 SETUP
 1. command: sudo apt update
 1a. install: git
+
+2. sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
 2. command: nvim .
 -> This will trigger the system to install nvim
 -> After installing, this will trigger for the system to restart (but still working if not, probably...)
