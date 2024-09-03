@@ -8,14 +8,17 @@ SETUP
 1. command: sudo apt update
 1a. install: git
 
-2. sudo add-apt-repository ppa:neovim-ppa/unstable
+2. install neovim
+sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt-get update
-2. command: nvim .
--> This will trigger the system to install nvim
--> After installing, this will trigger for the system to restart (but still working if not, probably...)
+sudo apt-get install neovim
 3. command: sudo apt install ripgrep
+4. Install nvm and node
+5. Open github and download from the README.md: https://github.com/wbthomason/packer.nvim
+5. open packer.lua, commands below:
+:so 
+:PackerSync
 4. add in .bashrc/.zshrc: alias vim='nvim'
-5. Install nvm and node
 6. Follow Primeagem Video
 -> Note that he started in `.config` folder
 7. Once lsp is installed:
